@@ -5,22 +5,20 @@ This project consists of two parts:
 1. **Face Recognition** – Binary classification of whether a face belongs to a specific user.
 2. **Emotion Recognition** – Multiclass classification of the emotion expressed in the face.
 
-Developed as part of the *Statistical Methods in Artificial Intelligence (SMAI)* course at IIIT Hyderabad.
-
-
 
 ## Task Overview
 
 ### Part 1: Face Recognition (Binary Classification)
-- Class 1: Your face
-- Class 0: Not your face
+- Create 2 classes Class 1 and class 0 and capture images
+  - Class 1: Your face
+  - Class 0: Not your face
 - 3 model variants:
   - VGGFace (finetuned)
   - ResNet18 (trained from scratch)
   - ResNet18 (pretrained on ImageNet)
 
 ### Part 2: Emotion Recognition (Multiclass Classification)
-- At least 3 classes: e.g., Happy, Sad, angry
+- Create At least 3 classes/folders: e.g., Happy, Sad, angry and capture images according to the emotion
 - Uses the same models as above, adapted for multiclass output
 
 ## Dataset Collection
